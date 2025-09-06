@@ -1,0 +1,1 @@
+multi agentic bot to genrate synthetic data using crew AI.
