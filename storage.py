@@ -14,7 +14,7 @@ class DataStorage:
     
     def save_current_data_to_csv(self):
         if self.current_data is not None:
-            filename = f"employee_data_iteration_{self.iteration_count}.csv"
+            filename = f"./data/employee_data_iteration_{self.iteration_count}.csv"
             self.current_data.to_csv(filename, index=False)
             self.all_versions.append(filename)
             logger.info(f"Saved data to {filename}")

@@ -25,5 +25,5 @@ if __name__ == "__main__":
     if data_store.current_data is not None:
         print("\nFinal output sample:")
         print(data_store.current_data.head())
-        data_store.current_data.to_csv("employee_data_final.csv", index=False)
-        print("Final dataset saved as employee_data_final.csv")
+        data_store.current_data.to_csv("./data/employee_data_final.csv", index=False)
+        print("Final dataset saved as data/employee_data_final.csv")
